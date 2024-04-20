@@ -1,19 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
-
 
 {
     int your_value;
 
     printf("Enter Any value:-");
-    scanf("%d",&your_value);
-    if(your_value > 0){
-          printf("this number is positive");
+    scanf("%d", &your_value);
+    if (your_value > 0)
+    {
+        printf("this number is positive");
     }
-    else if(your_value < 0){
+    else if (your_value < 0)
+    {
         printf("this number is nagative");
-    }else{
+    }
+    else
+    {
         printf("this number is neutral");
     }
-  
 }
