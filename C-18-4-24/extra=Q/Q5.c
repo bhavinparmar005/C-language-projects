@@ -10,19 +10,19 @@ int main()
   printf("Enter your amount :-");
   scanf("%f", &amount);
 
-  if (amount < 100)
+  if (amount <= 100)
 
   {
     printf("your amount is less ₹100 you will not get discount...");
     }
-  else if (amount > 100 && amount < 500)
+  else if (amount >= 100 && amount <= 500)
 
   {
     printf("you get 5%% discount ");
     discount = amount * 0.05;
     final_amount = amount - discount;
   }
-  else if (amount > 500 && amount < 1000)
+  else if (amount >= 500 && amount <= 1000)
   {
     printf("you get 10%% discount ");
     discount = amount * 0.10;
@@ -36,7 +36,7 @@ int main()
     final_amount = amount - discount;
   }
   printf("your  amount:-$ %.2f\n", amount);
-  printf("Discount amount id:-$ %.2f\n", discount);
+  printf("Discount amount :-$ %.2f\n", discount);
   printf("Final amount after discount:-$ %.2f\n", final_amount);
   printf("visit shop again\n\n");
   printf("thank you for shopping........\n\n");

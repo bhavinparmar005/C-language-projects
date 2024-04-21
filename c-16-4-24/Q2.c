@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a=100;
-    int b=200;
+    int a = 100;
+    int b = 200;
 
- a=a+b;
- b=a-b;
- a=a-b;
- 
-    printf("%d %d",a,b );
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("%d \n", a);
+    printf("%d", b);
     return 0;
 }

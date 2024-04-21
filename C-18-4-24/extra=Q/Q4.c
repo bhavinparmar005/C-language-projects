@@ -2,7 +2,7 @@
 int main()
 {
     int age;
-    printf("Enter your age to check if a person is eligible to giving vote:-");
+    printf("Enter your age to check  a person is eligible to giving vote:-");
     scanf("%d", &age);
     if (age >= 18)
 

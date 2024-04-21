@@ -6,8 +6,11 @@ int main()
 
     printf("Enter the student's mark:-");
     scanf("%d", &student_mark);
+    if(student_mark > 100){
+        printf(" 100%% ke se jyda mark nahi hote !!!!!!\n\n");
+    }
 
-    if (student_mark >= 90)
+    else if (student_mark >= 90 && student_mark <= 100)
     {
         printf("Grade :-A \n");
     }
@@ -25,7 +28,8 @@ int main()
     }
     else
     {
-        printf("your student will not come next class\n");
+        printf("your student will not come next class\n\n");
+        printf("better luck next time.........");
     }
 
     return 0;

@@ -6,12 +6,12 @@ int main()
     float time;
     float sum;
 
-    printf("Enter your principal amount is:-");
+    printf("Enter your principal amount is:-  ");
     scanf("%f", &principal);
     if(principal > 0){
-    printf("Enter you intrest:-");
+    printf("Enter you intrest:-  ");
     scanf("%f", &intrest);
-    printf("inter you time:-");
+    printf("inter you time:-  ");
     scanf("%f", &time);
     }
     sum = (principal * intrest * time) / 100;
@@ -22,6 +22,6 @@ int main()
     }
     else
     {
-        printf(" your simpal intrest is:-%.2f", sum);
+        printf(" your simpal intrest is:-  %.2f", sum);
     }
 }

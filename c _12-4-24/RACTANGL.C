@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<conio.h>
+
 main(){
 int b;
 int h;
 float a=0.5;
 int area;
 
-clrscr();
+
 
 printf("enter the value of base:- \n");
 scanf("%d",&b);
@@ -15,5 +15,5 @@ scanf("%d",&h);
 area=a*b*h;
 printf("%d",area);
 
-getch();
+
 }
