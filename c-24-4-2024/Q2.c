@@ -19,11 +19,11 @@ int main()
     {
         rupiya = units * 0.50;
     }
-    else if (units < 150)
+    else if (units <= 150)
     {
         rupiya = 50*0.50 + (units - 50) * 0.75;
     }
-    else if (units < 250)
+    else if (units <= 250)
     {
         rupiya = 50*0.50+100*0.75+ (units - 150) * 1.20;
     }
