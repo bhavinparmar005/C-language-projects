@@ -21,16 +21,16 @@ int main()
     }
     else if (units < 150)
     {
-        rupiya = 25 + (units - 50) * 0.75;
+        rupiya = 50*0.50 + (units - 50) * 0.75;
     }
     else if (units < 250)
     {
-        rupiya = 100 + (units - 150) * 1.20;
+        rupiya = 50*0.50+100*0.75+ (units - 150) * 1.20;
     }
     else
     {
 
-        rupiya = 220 + (units - 250) * 1.50;
+        rupiya = 50*0.50+100*0.75+100*1.2+(units - 250) * 1.50;
     }
     vadara_na_rupiya = rupiya * 0.20;
     total_rupiya = rupiya + vadara_na_rupiya;
