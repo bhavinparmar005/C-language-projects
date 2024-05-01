@@ -8,7 +8,7 @@ int main()
     printf("Enter any number:- ");
     scanf("%d", &number);
 
-    for (i = 1; i <= number; ++i)
+    for (i = 1; i <= number; i++)
     {
         sum += i;
     }
