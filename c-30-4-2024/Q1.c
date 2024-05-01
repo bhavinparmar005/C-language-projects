@@ -8,18 +8,18 @@
 
 int main()
 {
-    char ch = 'a';
+    char start = 'a';
     char end ='z';
 
     printf("program is print all alphabets form ato z by skipping 3 alphabets: \n");
     do
     {
-        printf("%c\n", ch);
-        ch++;
-        ch++;
-        ch++;
-        ch++;
-    }   while(ch<=end);
+        printf("%c\n",start);
+        start+=4;
+        // ch++;
+        // ch++;
+        // ch++;
+    }   while(start<=end);
 
     return 0;
 }

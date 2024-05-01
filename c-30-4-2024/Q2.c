@@ -14,10 +14,10 @@ int main()
     printf("program is giving your number count the total number of digits..\n\n");
     printf("Enter any number:- ");
     scanf("%d",&number);
-    while (number !=0)
+    while (number >0)
     {
        sum ++;
-       number/=10;
+       number=number/10;
   
       
     }
