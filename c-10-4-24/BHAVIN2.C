@@ -1,4 +1,13 @@
+//  Write a Program to print the given pattern.
+// - - - - - - - - 
+// |                 |
+// R                 |
+// N                 |
+// W                 |
+// |                 |
+//   - - - - - - - -
 #include <stdio.h>
+
 
 main()
 {

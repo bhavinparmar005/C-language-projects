@@ -1,3 +1,4 @@
+//  Write a Program to find the formula's answer (x+y)^3.
 #include <stdio.h>
 int main()
 {

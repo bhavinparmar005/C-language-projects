@@ -1,4 +1,7 @@
+//  Write a Program to print your name, age, and school.
+
 #include <stdio.h>
+
 
 main()
 {

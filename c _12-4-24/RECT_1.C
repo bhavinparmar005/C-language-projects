@@ -1,6 +1,7 @@
+// Write a Program to find the area of a rectangle.
 #include<stdio.h>
-#include<conio.h>
-main()
+
+int main()
 {
 int l;
 int w;
@@ -12,4 +13,5 @@ int area;
    scanf("%d",&w);
    area=l*w;
    printf("%d",area);
+   return 0;
 }
