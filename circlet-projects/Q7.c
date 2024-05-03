@@ -10,7 +10,7 @@
 int main()
 {
 
-    int number;
+    int number=5;
     int col, row;
 
     // printf("enter number row X col :-  ");
